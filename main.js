@@ -1,6 +1,7 @@
 const listItems = document.querySelectorAll(".item-wrapper");
 
 function handleToggleClass(e) {
+  e.currentTarget.classList.toggle("item-wrapper__active");
   e.currentTarget.nextElementSibling.classList.toggle("spoiler-text");
   e.currentTarget.childNodes[1].classList.toggle("item-title__active");
   e.currentTarget.childNodes[3].classList.toggle("item-btn__active");

@@ -33,7 +33,7 @@ body {
 }
 
 .item-wrapper {
-  padding: 20px 0;
+  padding: 20px 0 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -57,13 +57,17 @@ body {
 }
 
 .item-text {
+  padding-bottom: 24px;
   max-width: 942px;
   width: 100%;
   font-size: 20px;
-  margin-top: 16px;
   line-height: 1.5;
   color: var(--second-color);
   opacity: 0.8;
+}
+
+.item-wrapper__active {
+  padding-bottom: 16px;
 }
 
 .spoiler-text {
