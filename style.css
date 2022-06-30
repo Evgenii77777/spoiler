@@ -45,6 +45,7 @@ body {
   border: none;
   background-color: inherit;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .item-text {
@@ -62,6 +63,7 @@ body {
 }
 
 .item-btn__active {
+  transition: 0.2s;
   transform: rotate(45deg);
 }
 
