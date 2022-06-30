@@ -1,0 +1,158 @@
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.main {
+  padding: 100px 160px 222px 142px;
+}
+
+.main-title {
+  margin-bottom: 80px;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #012b34;
+}
+
+.main-list {
+  border-top: 1px solid #e6e6e6;
+}
+
+.list-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-title {
+  font-size: 36px;
+  line-height: 1.2;
+  color: #012b34;
+}
+
+.item-btn {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.item-text {
+  max-width: 942px;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 16px;
+  line-height: 1.5;
+  color: #000402;
+  opacity: 0.8;
+}
+
+.spoiler-text {
+  display: none;
+}
+
+.item-btn__active {
+  transform: rotate(45deg);
+}
+
+.item-title__active {
+  color: #02818a;
+}
+
+@media (min-width: 320px) and (max-width: 767.2px) {
+  .main {
+    padding: 50px 24px 12px;
+  }
+
+  .main-title {
+    max-width: 190px;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+
+  .item-wrapper {
+    align-items: baseline;
+  }
+
+  .item-title {
+    font-size: 24px;
+  }
+
+  .item-text {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279.2px) {
+  .main {
+    padding: 60px 40px 327px;
+  }
+
+  .main-title {
+    margin-bottom: 50px;
+    font-size: 42px;
+  }
+
+  .item-wrapper {
+    align-items: baseline;
+  }
+
+  .item-title {
+    font-size: 27px;
+  }
+
+  .item-text {
+    max-width: 612px;
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439.2px) {
+  .main {
+    padding: 70px 107px 145px;
+  }
+
+  .main-title {
+    margin-bottom: 56px;
+    font-size: 42px;
+  }
+
+  .item-title {
+    font-size: 24px;
+  }
+
+  .item-text {
+    max-width: 640px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1919.2px) {
+  .main {
+    padding: 80px 120px 240px 108px;
+  }
+
+  .main-title {
+    font-size: 48px;
+  }
+
+  .item-title {
+    font-size: 27px;
+  }
+
+  .item-text {
+    max-width: 840px;
+    font-size: 15px;
+  }
+}
