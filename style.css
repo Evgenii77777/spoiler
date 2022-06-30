@@ -1,3 +1,10 @@
+:root {
+  --main-color: #012b34;
+  --second-color: #000402;
+  --accent-color: #02818a;
+  --border-color: #e6e6e6;
+}
+
 body {
   font-family: "Roboto";
   font-style: normal;
@@ -14,16 +21,16 @@ body {
   font-size: 64px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #012b34;
+  color: var(--main-color);
 }
 
 .main-list {
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid var(--border-color);
 }
 
 .list-item {
   padding: 20px 0;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .item-wrapper {
@@ -35,7 +42,7 @@ body {
 .item-title {
   font-size: 36px;
   line-height: 1.2;
-  color: #012b34;
+  color: var(--main-color);
 }
 
 .item-btn {
@@ -54,7 +61,7 @@ body {
   font-size: 20px;
   margin-top: 16px;
   line-height: 1.5;
-  color: #000402;
+  color: var(--second-color);
   opacity: 0.8;
 }
 
@@ -68,7 +75,7 @@ body {
 }
 
 .item-title__active {
-  color: #02818a;
+  color: var(--accent-color);
 }
 
 @media (min-width: 320px) and (max-width: 767.2px) {
